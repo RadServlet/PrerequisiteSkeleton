@@ -1,0 +1,99 @@
+/* Dashboard container layout */
+.home-page {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* App selection container typography */
+.home-page h1 {
+  font-size: 32px;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Interactive navigation selections grid */
+.home-page button {
+  display: block;
+  width: 100%;
+  padding: 16px 24px;
+  margin: 14px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3748;
+  background-color: #f7fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+}
+
+/* Dashboard hover state logic */
+.home-page button:hover {
+  background-color: #fff5f5;
+  border-color: #d80b17; /* Official McGill crimson accent color */
+  color: #d80b17;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(216, 11, 23, 0.12);
+}
+
+/* Global back-navigation ribbon style overrides */
+button[onClick*="setSelectedApp(null)"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a5568;
+  background-color: #edf2f7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+
+/* Polish layout configuration for the back action element */
+.btn-back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 24px 0 12px 24px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a5568;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease-in-out;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Hover micro-interactions */
+.btn-back:hover {
+  background-color: #f7fafc;
+  color: #1a202c;
+  border-color: #cbd5e1;
+  transform: translateX(-2px); /* Subtle shift left to emphasize going back */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Active click physics down-scaling layout compression */
+.btn-back:active {
+  transform: translateX(0) scale(0.98);
+}
+
