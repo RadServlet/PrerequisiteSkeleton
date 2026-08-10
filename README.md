@@ -98,5 +98,52 @@ Because academic prerequisite information on university portals is written by hu
    ```bash
    npm start
    ```
+## 📸 Screenshots from the Actual Application
 
+Below are real-world test cases demonstrating how the engine parses, validates, and schedules complex McGill department tracks.
+
+### ⚡ Case Study 1: U1 Computer/Software Engineering & Machine Learning
+This scenario highlights the engine's ability to handle parallel hardware/software pipelines, manage deep mathematical prerequisites leading to `ECSE 551`, and throw validation warnings for legacy or missing data tracks (like `GEPR 221`).
+
+<table>
+  <tr>
+    <td align="center"><strong>1. Course Classification Input</strong></td>
+    <td align="center"><strong>2. Generated Timeline & Warnings</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="./pictures/ECSE_551_Courses.png" alt="Engineering Course Classification" width="100%"></td>
+    <td valign="top"><img src="./pictures/ECSE_551_Semester.png" alt="Engineering Generated Roadmap" width="100%"></td>
+  </tr>
+</table>
+
+---
+
+### 🧮 Case Study 2: Pure & Applied Mathematics Track
+This layout demonstrates a clean math major curriculum layout, highlighting strict linear progressions and multi-parent node convergence leading up to upper-year capstones like `MATH 319`.
+
+<table>
+  <tr>
+    <td align="center"><strong>1. Course Classification Input</strong></td>
+    <td align="center"><strong>2. Generated Timeline</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="./pictures/MATH_319_Courses.png" alt="Mathematics Course Classification" width="100%"></td>
+    <td valign="top"><img src="./pictures/MATH_319_Semester.png" alt="Mathematics Generated Roadmap" width="100%"></td>
+  </tr>
+</table>
+
+---
+### 📅 Case Study 3: Winter 2026 Final Exam Schedule Generator
+Beyond curriculum planning, the application parses McGill final exam data feeds. It automatically correlates your selected courses with their corresponding official dates, times, locations, and building seating zones.
+
+<table>
+  <tr>
+    <td align="center"><strong>1. Selection State Input</strong></td>
+    <td align="center"><strong>2. Generated Exam Schedule & Locations</strong></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="./pictures/W26_Input.png" alt="Winter 2026 Selections" width="100%"></td>
+    <td valign="top"><img src="./pictures/W26_Schedule.png" alt="Winter 2026 Exam Schedule View" width="100%"></td>
+  </tr>
+</table>
 
