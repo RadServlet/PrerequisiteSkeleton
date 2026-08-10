@@ -117,7 +117,7 @@ This scenario highlights the engine's ability to handle parallel hardware/softwa
 This layout demonstrates a clean math major curriculum layout, highlighting strict linear progressions and multi-parent node convergence leading up to upper-year capstones like `MATH 319`.
 
 #### 1. Course Classification Input
-<img src="./pictures/MATH_319_Courses.png" alt="Mathematics Course Classification" width="100%">
+<img src="./pictures/MATH_319_Course_layout.png" alt="Mathematics Course Classification" width="100%">
 
 #### 2. Generated Timeline
 <img src="./pictures/MATH_319_Semester.png" alt="Mathematics Generated Roadmap" width="100%">
